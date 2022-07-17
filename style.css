@@ -3,9 +3,24 @@ body {
     margin: 0px;
 }
 
-#font-big {
+.font-big {
     font-size: 50px;
 }
+
+.heading-1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: gray;
+}
+
+.top-banner p {
+    color: white;
+}
+
 
 .top-banner {
     background-image: url(images/top-bg.jpg);
@@ -15,6 +30,8 @@ body {
     height: 350px;
     color: white;
     padding: 20px 20px;
+    text-align: center;
+
 
 }
 
@@ -27,6 +44,199 @@ body {
     background-image: linear-gradient(pink, tomato)
 }
 
-section {
+
+
+
+
+.donation-taka {
+    margin-top: 100px;
     text-align: center;
+
+
+}
+
+.flexible-container-1 {
+    margin-top: 10px 20px 5px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: dimgray;
+
+
+}
+
+.flex-item-1 {
+    background-color: white;
+    padding: 2%;
+}
+
+#border-1 {
+    border: 2px solid tomato;
+    color: red;
+    border-radius: 5px;
+    background-color: rgb(240, 203, 203);
+
+
+}
+
+.flex-item-1 {
+    margin: 20px;
+
+}
+
+.donation-link-button {
+    text-decoration: none;
+    color: beige;
+    text-decoration: none;
+    font-weight: 750;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(pink, tomato)
+}
+
+.margin-b {
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+}
+
+#donate-plan {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.our-plan {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.donate-plan-area {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-inline: 200px;
+
+}
+
+.food-card {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(219, 248, 238);
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.shelter-card {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(248, 215, 220);
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.education-card {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(243, 236, 225);
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.paragraph-left {
+    text-align: left;
+    color: gray
+}
+
+.donation-details-1 {
+    display: flex;
+    margin: 50px 100px 50px 100px;
+    justify-content: space-evenly;
+
+}
+
+.details1-left {
+    height: 400px;
+    width: 400px;
+}
+
+.heading-2 {
+    font-size: 40px;
+    text-align: left;
+}
+
+.details-img-1 {
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.donation-details-2 {
+    display: flex;
+    margin: 50px 100px 50px 100px;
+    justify-content: space-evenly;
+}
+
+.last-heading {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.updates {
+    margin-inline: 350px;
+}
+
+.subscribe-box {
+    height: 150px;
+    width: 700px;
+    background-color: blanchedalmond;
+    margin-top: 40px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-box label {
+    position: relative;
+
+}
+
+.subscribe-box input {
+    border: none;
+    padding: 15px;
+    width: 300px;
+    height: 6px;
+    background-color: rgb(223, 220, 220);
+    border-radius: 5px;
+}
+
+.subscribe-box button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(pink, tomato);
+
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer h1 {
+    font-family;
+    font-style: italic;
 }
